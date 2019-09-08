@@ -1,0 +1,247 @@
+body{
+    background: url(africa-15428_1920.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -40px;
+    background-attachment: fixed;
+    color:#fff;
+    font-size: 18px;
+}
+
+
+h1,h2,h3,h4,h5{
+    font-weight: normal;
+    margin: 0;
+}
+
+a,a:hover,a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+div.wrapper h1{
+    word-spacing: 20px;
+    text-align: end;
+    font-size: 40px;
+    margin-bottom: 60px;
+    margin-right: 100px;
+    color: rgb(255, 230, 0);
+    text-decoration: underline;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0;
+}
+
+nav{
+    justify-self: end;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 120px;
+    margin-right: -10px;
+}
+
+nav button{
+    background:none ;
+    color: rgb(255, 100, 0);
+    font-size: 20px;
+    cursor: pointer;
+    width: 60px;
+    border: transparent;
+}
+
+nav button:hover{
+    color: #fff;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article{
+    max-width:250px;
+    padding:20px;
+    margin:10px;
+    margin-bottom: 40px;
+    border: 2px solid #00dba0;
+    border-radius: 30px 0 0 0;
+    position: relative;
+
+}
+
+.article-detail .article{
+    max-width:960px;
+    border: 2px solid #00dba0;
+    border-radius: 30px 0;
+}
+
+
+.article a{
+    color: rgb(255, 230, 0);
+}
+
+a.highlight{
+     color: rgb(255, 100, 0);
+     font-size: 22px;
+}
+
+nav .highlight-1{
+     color: rgb(255, 100, 0);
+     font-size: 23px;
+}
+
+nav .highlight-1:hover{
+     color: #fff;
+}
+
+a.highlight:hover{
+    color: #fff;
+}
+
+.article-detail .article img{
+    max-width:100%;
+    padding-bottom: 5px;
+}
+
+.article-detail .article p:nth-child(4){
+    color:#fff;
+    font-size: 19px;
+}
+
+.article-detail .article p:nth-child(5){
+    color: rgb(1, 255, 0);
+    font-size: 19px;
+}
+
+
+.article-detail .article{
+ font-size: 20px;
+}
+
+.article-detail .article h2{
+    color: rgb(255, 230, 0);
+    text-decoration: underline;
+}
+
+ .articles .article p:nth-child(3){
+    color: rgb(1, 255, 0);
+}
+
+
+
+ .articles .author{
+    padding: 2px;
+    background: rgb(255, 100, 0);
+    color: #000000;
+    font-size: 15px;
+    position: absolute;
+    border: transparent;
+    border-radius: 10px 0;
+    right:-4px;
+    bottom:-3px;
+    margin-bottom:-15px;
+    width:50%;
+    height:14%;
+    text-align: center;
+
+}
+
+.author-1{
+    position: absolute; 
+    margin-left: 700px;
+    margin-top: 0;
+    background: rgb(255, 100, 0);
+    background-position: bottom;
+    width: 20%;
+    height: 7%;
+    text-align: center;
+    border:transparent;
+    border-radius: 20px 0;
+}
+
+ 
+ 
+
+
+.site-form{
+    margin-top: 60px;
+    margin-left: 10px;
+    padding: 20px;
+    padding-left: 40px;
+    border: 2px solid #00dba0;
+    border-radius: 30px 0;
+}
+
+.site-form input, .site-form textarea{
+    display: block;
+    margin: 20px 0 ;
+    margin-bottom:30px;
+    padding: 10px;
+}
+
+#search-bar {
+    position: absolute;
+    margin-top:-100px;
+    margin-left: 20px;
+}
+
+#search-bar input,.search-bar textarea{
+    padding: 10px;
+    width: 140%;
+    text-align: center;
+    border: 2px solid  rgb(255, 100, 0);
+    border-radius: 0 20px ;
+}
+
+.site-form input[type="submit"]{
+    background: rgb(255, 100, 0);
+    width:20%;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 50px;
+
+}
+
+.site-form input[type="submit"]:hover{
+     background: rgba(0, 255, 0, 0.842); 
+     color: #fff;
+     width:23%;
+     transition:0.3s;
+}
+
+.site-form input[type="file"]{
+    background: rgba(0, 255, 0, 0.842);
+    width:30%;
+    border: transparent;
+    border-radius: 20px 0;
+    font-size: 18px;
+    margin-top: 50px;
+
+}
+
+
+.helptext {
+ color: rgba(255, 230, 0, 0.842);
+ display: block;
+}
+
+.errorlist li{
+    padding: 10px;
+    color:red;
+    border: 1px solid red;
+    list-style: none;
+}
+.errorlist{
+    padding: 20px;
+    padding-left: 0;
+}

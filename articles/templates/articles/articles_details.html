@@ -1,0 +1,13 @@
+ {%extends 'base_layouts.html'%}
+
+   {%block content%}
+   <div class="article-detail">
+       <div class="article">
+           <strong> <p class="author-1">By  Dr. {{article.Author.username}}</p></strong>
+            <img src="{{article.thumb.url}}" alt="">  
+           <h2>{{article.title}}</h2>
+           <p>{{article.body}}</p>
+           <p>{{article.date}}</p>
+       </div>
+   </div>
+   {%endblock %}

@@ -1,0 +1,24 @@
+ {%extends 'base_layouts.html'%}
+ 
+  {%block content%}
+    <title>PATIENTS</title>
+    <h1>PATIENTS  LIST</h1>
+    <form id="search-bar">
+        <input class="search-bar" type="text" placeholder="Search For Patient" >
+    </form> 
+
+    <div class="articles">
+        {% for article in articles %}
+                <div class="article">
+                    <h2><a href="{%url 'articles:detail' slug=article.slug%}">{{article.title}}</a></h2>
+                    <p>{{article.snippets}}</p>
+                    <p>{{article.date}}</p>
+                   <strong> <p class="author">By  Dr. {{article.Author.username}}</p></strong>
+                </div>
+        {%endfor%}  
+    </div>
+    <script src="/static/search-bar.js"></script>
+ {% endblock %}
+
+
+
